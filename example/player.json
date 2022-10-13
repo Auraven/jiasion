@@ -1,8 +1,16 @@
 {
     "name": "Baba Yaga",
+    "stats": {
+        "constitution": 12,
+        "strength": 14,
+        "dexterity": 18,
+        "intelligence": 8,
+        "wisdom": 10,
+        "charisma": 9
+    },
     "inventory": [
         {
-            "name": "Knife",
+            "name": "Spork",
             "stack_size": 1
         },
         {
