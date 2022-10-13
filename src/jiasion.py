@@ -2,7 +2,7 @@ class Serializable():
     def __init__(self, json_object : dict = None, **kwargs):
         if json_object is not None: #Decode JSON into Class
             self.decode(json_object)
-        for key, value in kwargs.items(): #Override Class Attributes with values
+        for key, value in kwargs.items(): #Override Class Attributes with Values
             self.__setattr__(key, value)
         for attr_name in self.__annotations__: #Ensure that Attributes exist, even if not set
             if attr_name not in self.__dict__:
@@ -10,7 +10,7 @@ class Serializable():
 
     def decode(self, json_object : dict):
         for attr_name , attr_type in self.__annotations__.items():
-            attr = attr_type() #Instantiate default subclass Serializable
+            attr = attr_type() #Instantiate default
             self.__setattr__(attr_name, attr) #Create default attribute of name and type, even if not in the JSON            
             
             if issubclass(attr_type, Serializable): #Is Serializable

@@ -1,0 +1,21 @@
+{
+    "name": "Mr Mime",
+    "stats": {
+        "kda_ratio": 999,
+        "wins": 200
+    },
+    "inventory": [
+        {
+            "name": "Spork",
+            "stack_size": 1
+        },
+        {
+            "name": "Knife",
+            "stack_size": "123"
+        },
+        {
+            "name": "Spoon",
+            "stack_size": 11
+        }
+    ]
+}
