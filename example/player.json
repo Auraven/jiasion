@@ -1,25 +1,21 @@
 {
     "name": "Baba Yaga",
     "stats": {
-        "constitution": 12,
-        "strength": 14,
-        "dexterity": 18,
-        "intelligence": 8,
-        "wisdom": 10,
-        "charisma": 9
+        "kda_ratio": 0.5,
+        "wins": 100
     },
     "inventory": [
         {
-            "name": "Spork",
-            "stack_size": 1
+            "name": "Knife",
+            "stack_size": 5
         },
         {
             "name": "Fork",
-            "stack_size": 15
+            "stack_size": 19
         },
         {
             "name": "Spoon",
-            "stack_size": 3
+            "stack_size": 7
         }
     ]
 }
