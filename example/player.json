@@ -1,0 +1,17 @@
+{
+    "name": "Baba Yaga",
+    "inventory": [
+        {
+            "name": "Knife",
+            "stack_size": 1
+        },
+        {
+            "name": "Fork",
+            "stack_size": 15
+        },
+        {
+            "name": "Spoon",
+            "stack_size": 3
+        }
+    ]
+}
