@@ -1,9 +1,6 @@
 import copy
 
 class Serializable():
-    def __init__(self, json_object : dict):
-        self.decode(json_object)   
-
     def decode(self, json_object : dict):
         for attr_name in json_object:
             attr = self.__getattribute__(attr_name)
